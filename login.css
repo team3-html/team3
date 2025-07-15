@@ -1,0 +1,496 @@
+#__next {
+    display: flex
+;
+    min-height: 100%;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+html, body, #__next {
+    font-family: font, "font Fallback";
+    line-height: 1.5;
+    color: rgb(41, 51, 65);
+}
+html, body {
+    height: 100%;
+}
+html, body, #__next {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.sumgologo {
+        margin-top: 1px;
+        display: inline-block;
+    }
+* {
+    box-sizing: border-box;
+    word-break: break-word;
+}
+.sumgo{
+    display: flex;
+}
+.mainheader {    
+    display: block;
+    height: var(--gnb-height);
+    z-index: 1000;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    color: rgb(41, 51, 65);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(239, 241, 245);
+
+    }
+.headerwrap {
+        max-width: 1010px;
+        padding: 18px 20px;
+        margin: 0px auto;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        padding: 16px;
+        height: 100%;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+.firstheader {
+        gap: 30px;
+        -webkit-box-align: center;
+        align-items: center;
+        flex: inherit;
+        display: flex;
+       
+    }
+.css-1hfho5l {
+        display: none;
+        position: relative;
+    }
+.navcontainer {
+        -webkit-box-align: center;
+        align-items: center;
+        height: 24px;
+;
+    }
+    .navcontainer ul {
+        display: flex;
+        gap: 18px;
+    }
+    ol, ul {
+    list-style: none;
+}
+    ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+    .navcontainer li {
+        display: flex;
+        word-break: keep-all;
+    }
+.link {
+    min-height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: rgb(28, 36, 47);
+    text-align: left;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+a{
+        text-decoration: none;
+}
+.secondheader {
+        flex: inherit;
+    }
+        .serviceform {
+        position: relative;
+        display: block;
+        width: 280px;
+        height: 40px;
+        animation: initial;
+    }
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.css-14be4in {
+        display: block;
+    }
+.inputholder {
+        background-color: transparent;
+        width: 100%;
+        font-size: 16px;
+        height: 100%;
+        padding: 0px 0px 0px 12px;
+        color: rgb(41, 51, 65);
+        caret-color: rgb(105, 59, 242);
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    line-height: inherit;
+}
+input {
+    border: none;
+    outline: none;
+}
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+}
+ 
+.formcontainer{ 
+    height: 100%;
+    flex-basis: 44px;
+    padding: 0px 10px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background-color: rgb(239, 241, 245);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    flex-basis: 56px;
+    height: 100%;
+}
+
+
+.css-hiki5m {
+    display: none;
+}
+
+.thirdheader {
+    flex: inherit;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.css-1w2ywtm {
+        display: none;
+    }
+.css-1w2ywtm {
+    margin-left: auto;
+}
+.css-6yp4az {
+        display: none;
+    }
+.css-16xbczj {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.css-gmvnd1 {
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    user-select: none;
+    transition-property: color, border-color, background-color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    color: rgb(41, 51, 65);
+    border-color: transparent;
+    background-color: transparent;
+    padding: 0px;
+    font-size: 14px;
+    width: initial;
+    display: flex;
+}
+.loginc {
+    display: block;
+}
+.loginnav{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+}
+.loginnav > ul {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        gap: 16px;
+    }
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.loginnav > ul > li.nav-item {
+    display: list-item;
+}
+.loga {
+    min-height: 1.375rem;
+    line-height: 1.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: rgb(28, 36, 47);
+    text-align: left;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.gosua {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    user-select: none;
+    transition-property: color, border-color, background-color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    color: rgb(255, 255, 255);
+    border-color: rgb(105, 59, 242);
+    background-color: rgb(105, 59, 242);
+    padding: 7px 14px;
+    font-size: 14px;
+    border-radius: 6px;
+    width: initial;
+}
+.inputholder{
+    background-color: transparent;
+    font-size: 14px;
+    
+}
+.mainmain {
+        background-color: rgb(246, 247, 249);
+}
+main {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    width: 100%;
+}
+.maincontainer {
+    position: relative;
+    max-width: calc(452px);
+    margin: 0px auto;
+    padding: 0px 16px;
+    min-height: 300px;
+}
+.mainlogin {
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.mainlogin {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.h1login {
+        align-self: center;
+        font-size: 34px;
+        color: rgb(41, 51, 65);
+        font-weight: 500;
+}
+.formcss {
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid rgb(239, 241, 245);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 424px;
+    background-color: rgb(255, 255, 255);
+    }
+    .email {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.emaillabel {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.blankemail {
+    position: relative;
+    display: flex;
+}
+.inputemail {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid rgb(234, 22, 35);
+    color: rgb(41, 51, 65);
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    height: 48px;
+    resize: none;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    line-height: inherit;
+}
+.pleaseemail {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.erroremail{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(234, 22, 35);
+}
+.labelpassword {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.passwordholder {
+    position: relative;
+    display: flex;
+}
+.inputpassword {
+    padding: 12px 70px 12px 12px;
+    border-radius: 4px;
+    border: 1px solid rgb(224, 229, 235);
+    color: rgb(41, 51, 65);
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    height: 48px;
+    resize: none;
+}
+.emaillogin {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    user-select: none;
+    transition-property: color, border-color, background-color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    color: rgb(255, 255, 255);
+    border-color: rgb(105, 59, 242);
+    background-color: rgb(105, 59, 242);
+    padding: 11px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: initial;
+}
+.findemail {
+    display: flex;
+    gap: 20px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.emaila {
+    color: rgb(106, 118, 133);
+    padding: 6px 0px;
+    font-size: 14px;
+}
+.divcss {
+    width: 1px;
+    height: 12px;
+    background-color: rgb(224, 229, 235);
+}
+.linkmedia {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.linkkakao {
+    width: 100%;
+    height: 48px;
+    padding: 8px 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgb(254, 229, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.linknaver {
+    width: 100%;
+    height: 48px;
+    padding: 8px 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgb(3, 199, 90);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    gap: 4px;
+}
+.kakao {
+    min-height: 1.25rem;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: unset;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.naver {
+    min-height: 1.25rem;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: unset;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
