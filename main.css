@@ -48,6 +48,11 @@ a {
     background-color: transparent;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 ul {
     padding: 0;
 }
@@ -580,4 +585,167 @@ div.category-container {
 
 .main-service-card .request-count {
     font-size: .875rem;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    padding: 0;
+    transform: translateY(-50%);
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.main-desktop-slide .slick-arrow.slick-next {
+    right: -1.125rem;
+    background-image: url("data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cfilter%20x='-12.5%25'%20y='-10%25'%20width='125%25'%20height='125%25'%20filterUnits='objectBoundingBox'%20id='a'%3e%3cfeOffset%20dy='1'%20in='SourceAlpha'%20result='shadowOffsetOuter1'/%3e%3cfeGaussianBlur%20stdDeviation='1.5'%20in='shadowOffsetOuter1'%20result='shadowBlurOuter1'/%3e%3cfeColorMatrix%20values='0%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.2%200'%20in='shadowBlurOuter1'/%3e%3c/filter%3e%3ccircle%20id='b'%20cx='24'%20cy='24'%20r='20'/%3e%3c/defs%3e%3cg%20fill='none'%20fill-rule='evenodd'%3e%3cg%3e%3cuse%20fill='%23000'%20filter='url(%23a)'%20xlink:href='%23b'/%3e%3cuse%20fill='%23FFF'%20xlink:href='%23b'/%3e%3c/g%3e%3cpath%20d='M12%2012h24v24H12z'/%3e%3cpath%20stroke='%23888'%20stroke-width='1.7'%20stroke-linecap='round'%20stroke-linejoin='round'%20d='m22%2031%207-7-7-7'/%3e%3c/g%3e%3c/svg%3e");
+}
+
+.main-desktop-slide .slick-arrow {
+    top: 4.8125rem;
+    z-index: 1;
+    width: 3rem;
+    height: 3rem;
+}
+
+.main-community.slide-knowhow-list {
+    height: auto;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.main-community .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.125rem;
+}
+
+.main-community .header.short-bottom {
+    margin-bottom: 1rem;
+}
+
+.main-community .header .title {
+    font-size: 1.5rem;
+}
+
+.main-community .header .title {
+margin: 0;
+font-weight: 700;
+line-height: 1.5;
+letter-spacing: normal;
+}
+
+.go-list {
+    display: flex;
+    gap: .125rem 2px;
+    align-items: center;
+    color: #693bf2;
+    font-size: 1rem;
+}
+
+.go-list svg {
+    flex: 0 0 1rem;
+}
+
+.prisma-icon.purple {
+    color: #693bf2;
+}
+
+.prisma-icon path {
+    fill: currentColor;
+}
+
+.desktop-section {
+    display: flex;
+    align-items: center;
+}
+
+.curation-container.half-list {
+    width: 50%;
+    margin-right: 1.875rem;
+}
+
+.curation-list {
+    margin: 0;
+}
+
+.curation-list .curation-list-item .curation-list-wrapper {
+    display: flex;
+    align-items: center;
+    padding: .75rem .125rem;
+    margin-bottom: .125rem;
+    cursor: pointer;
+    border-bottom: .0625rem solid #EFF1F5;
+}
+
+.curation-list .curation-list-item .curation-list-wrapper .curation-contents.has-thumbnail {
+    width: calc(100% - 4.875rem);
+}
+
+.curation-list .curation-list-item .curation-list-wrapper .curation-contents .topic-name {
+    margin: 0 0 .3125rem;
+    font-size: .75rem;
+    color: #6a7685;
+}
+
+.curation-list .curation-list-item .curation-list-wrapper .curation-contents .curation-title {
+    margin: 0 0 .1875rem;
+    overflow: hidden;
+    font-size: .875rem;
+    font-weight: 500;
+    color: #293341;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.curation-list .curation-list-item .curation-list-wrapper .curation-contents .curation-content {
+    margin: 0;
+    overflow: hidden;
+    font-size: .875rem;
+    color: #6a7685;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.curation-list .curation-list-item .curation-list-wrapper .curation-contents .curation-reactions {
+    display: flex;
+    align-items: center;
+    margin-top: .375rem;
+}
+
+.main-service-card .request-count {
+    display: flex;
+    align-items: center;
+    font-size: .875rem;
+    color: #6a7685;
+}
+
+.main-service-card .request-count .request-icon {
+    margin-right: .375rem;
+}
+
+.curation-list .curation-list-item .curation-list-wrapper .curation-contents .curation-reactions .view-count {
+    margin-right: .875rem;
+}
+
+.curation-list .curation-list-item .curation-list-wrapper .curation-contents .curation-reactions .comment-count, .curation-list .curation-list-item .curation-list-wrapper .curation-contents .curation-reactions .view-count {
+    display: flex;
+    align-items: center;
+    font-size: .75rem;
+    line-height: 1.5;
+    color: #c7ced6;
+    letter-spacing: -.0125rem;
+}
+
+.curation-list .curation-list-item .curation-list-wrapper .curation-contents .curation-reactions .view-count:before {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .25rem;
+    content: "";
+    background: url("data:image/svg+xml,%3csvg%20width='16'%20height='17'%20viewBox='0%200%2016%2017'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8%202.526c2.519%200%204.821%201.645%206.91%204.932a2%202%200%200%201%200%202.137c-2.089%203.287-4.391%204.931-6.91%204.931s-4.821-1.644-6.91-4.931a2%202%200%200%201%200-2.137C3.18%204.171%205.481%202.526%208%202.526zm0%204a2%202%200%201%200%200%204%202%202%200%200%200%200-4z'%20fill='%23C5C5C5'%20fill-rule='evenodd'/%3e%3c/svg%3e") no-repeat;
 }
