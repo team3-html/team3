@@ -30,6 +30,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         margin-top: 1px;
         display: inline-block;
     }
+.passworda {
+    color: rgb(106, 118, 133);
+    padding: 6px 0px;
+    font-size: 14px;
+}
 * {
     box-sizing: border-box;
     word-break: break-word;
@@ -115,6 +120,11 @@ a{
 .secondheader {
         flex: inherit;
     }
+    html, body, #__next {
+    font-family: Pretendard, Malgun Gothic, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    line-height: 1.5;
+    color: rgb(41, 51, 65);
+}
         .serviceform {
         position: relative;
         display: block;
@@ -493,4 +503,320 @@ button, input, optgroup, select, textarea {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+.mainfooter {
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(224, 229, 235);
+    padding: 21px 12px 40px;
+}
+.footersection1 {
+    margin: 0px auto;
+    display: block;
+    max-width: 970px;
+    padding: 0px;
+}
+.store {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+.numberp {
+    padding-bottom: 3px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(105, 59, 242);
+}
+.opentime {
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+    padding-bottom: 30px;
+}
+p {
+    margin: 0px;
+}
+.appstore {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-content: center;
+    width: 136px;
+    height: 36px;
+    background-color: rgb(105, 59, 242);
+    border-radius: 20.5px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: normal;
+    white-space: nowrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 8px;
+    text-align: center;
+    border: none;
+}
+.appstore:last-child {
+    margin: 0px;
+}
+.playstore {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-content: center;
+    width: 136px;
+    height: 36px;
+    background-color: rgb(105, 59, 242);
+    border-radius: 20.5px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: normal;
+    white-space: nowrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 8px;
+    text-align: center;
+    border: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.css-sro0f3 {
+    display: inline-flex;
+    padding-right: 6px;
+}
+.playstore:last-child {
+    margin: 0px;
+}
+.playstore {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    align-content: center;
+    width: 136px;
+    height: 36px;
+    background-color: rgb(105, 59, 242);
+    border-radius: 20.5px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: normal;
+    white-space: nowrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 8px;
+    text-align: center;
+    border: none;
+}
+.soomgoinfo {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    margin-bottom: 0px;
+    float: right;
+}
+.infoul {
+    margin-bottom: 0px;
+}
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.li1 {
+    display: none;
+    vertical-align: top;
+    min-width: 95px;
+     }
+.soomgoh5 {
+    position: relative;
+    padding-bottom: 5px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(41, 51, 65);
+}
+.css-lhwjkg {
+    position: absolute;
+    right: 20px;
+}
+.realli {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 95px;
+    }
+.infoinder {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.infop {
+    width: 100%;
+    padding: 0px 0px 5px;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+}
+p {
+    margin: 0px;
+}
+.infoorder {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.infop2 {
+    width: 100%;
+    padding: 0px 0px 5px;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+}
+.teamblog {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.infoblog {
+    width: 100%;
+    padding: 0px 0px 5px;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+}
+.how{
+    width: fit-content;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+
+.howp {
+    width: 100%;
+    padding: 0px 0px 5px;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+    
+}
+.footersection2 {
+    padding-top: 20px;
+    margin: 0px auto;
+    display: block;
+    max-width: 970px;
+    padding: 0px;
+    }
+.footerbottom {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.footerbottom1 {
+    display: inline-block;
+    vertical-align: top;
+    flex: 1 1 0%;
+}
+.line12 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    line-height: 18px;
+    padding-right: 96px;
+    padding-bottom: 8px;
+}
+.line12 a {
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+    font-weight: 500;
+}
+
+.bottomspan {
+    margin: 0px;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+    display: inline-block;
+    font-weight: normal;
+    text-align: start;
+}
+.line3 {
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 18px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    gap: 0px;
+}
+.sangho {
+    text-align: start;
+    display: block;
+    padding: 0px;
+    font-size: 12px;
+}
+.sanghospan {
+    margin: 0px;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+}
+.footericon {
+    vertical-align: top;
+    display: flex;
+    column-gap: 12px;
+    flex: 0 0 auto;
+    float: right;
+    padding-bottom: 40px;
+}
+.naverblog > div {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgb(224, 229, 235);
 }
