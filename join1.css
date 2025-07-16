@@ -550,5 +550,106 @@ button, input, optgroup, select, textarea {
     cursor: pointer;
     color: rgb(41, 51, 65);
 }
-
-
+.a-wrap-9 {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.p-wrap-5.p-wrap-5.p-wrap-5 {
+    width: 100%;
+    padding: 0px 0px 5px;
+}
+.p-wrap-5{
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+}
+    .section-container-3 {
+    padding-top: 20px;
+    margin: 0px auto;
+    display: block;
+    max-width: 970px;
+    
+    }
+    .bottom-container-1 {
+    width: 100%;
+    display: flex
+;
+    align-items: flex-end;
+}
+.bottom-container-3  {
+    display: inline-block;
+    vertical-align: top;
+    flex: 1 1 0%;
+}
+.ul-container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    line-height: 18px;
+    padding-right: 96px;
+    padding-bottom: 8px;
+}
+.ul-container-3 a {
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+    font-weight: 500;
+}
+.span-wrap-3 {
+    margin: 0px;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+    display: inline-block;
+    font-weight: normal;
+    text-align: start;
+}
+.ul-container-5 {
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 18px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+    gap: 0px;
+}
+.li-warp-3 {
+    text-align: start;
+    display: block;
+    padding: 0px;
+    font-size: 12px;
+}
+.span-wrap-5 {
+    margin: 0px;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(106, 118, 133);
+}
+.a-container-3 {
+    vertical-align: top;
+    display: flex;
+    column-gap: 12px;
+    flex: 0 0 auto;
+    float: right;
+    padding-bottom: 40px;
+}
+.a-wrap-11 > div {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgb(224, 229, 235);
+}
